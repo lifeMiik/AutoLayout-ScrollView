@@ -9,6 +9,9 @@
 #import "TestViewController.h"
 
 @interface TestViewController ()
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIView *BGView;
+
 
 @end
 
@@ -16,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.scrollView setContentSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, self.BGView.frame.size.height)];
+    
 }
 
 - (void)didReceiveMemoryWarning {

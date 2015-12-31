@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TestViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,10 @@
     self.view.backgroundColor=[UIColor yellowColor];
     
      NSLog(@"Second Commit!!");
+}
+- (IBAction)clicked {
+    TestViewController *vc=[[TestViewController alloc]initWithNibName:@"TestViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

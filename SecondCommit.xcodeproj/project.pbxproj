@@ -16,6 +16,7 @@
 		9E91C57A1C321BCB0016933E /* SecondCommitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91C5791C321BCB0016933E /* SecondCommitTests.m */; };
 		9E91C5851C321BCB0016933E /* SecondCommitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91C5841C321BCB0016933E /* SecondCommitUITests.m */; };
 		9E9E88671C3380C100281A23 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E88661C3380C100281A23 /* TestViewController.m */; };
+		9E9E886B1C33CE5300281A23 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E9E886A1C33CE5300281A23 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		9E91C5861C321BCB0016933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E9E88651C3380C100281A23 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		9E9E88661C3380C100281A23 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		9E9E886A1C33CE5300281A23 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				9E91C5681C321BCB0016933E /* Main.storyboard */,
 				9E9E88651C3380C100281A23 /* TestViewController.h */,
 				9E9E88661C3380C100281A23 /* TestViewController.m */,
+				9E9E886A1C33CE5300281A23 /* TestViewController.xib */,
 				9E91C56B1C321BCB0016933E /* Assets.xcassets */,
 				9E91C56D1C321BCB0016933E /* LaunchScreen.storyboard */,
 				9E91C5701C321BCB0016933E /* Info.plist */,
@@ -250,6 +253,7 @@
 			files = (
 				9E91C56F1C321BCB0016933E /* LaunchScreen.storyboard in Resources */,
 				9E91C56C1C321BCB0016933E /* Assets.xcassets in Resources */,
+				9E9E886B1C33CE5300281A23 /* TestViewController.xib in Resources */,
 				9E91C56A1C321BCB0016933E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

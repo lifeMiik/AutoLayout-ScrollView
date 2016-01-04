@@ -19,6 +19,10 @@
     self.view.backgroundColor=[UIColor yellowColor];
     
      NSLog(@"Second Commit!!");
+    
+  
+    
+    
 }
 - (IBAction)clicked {
     TestViewController *vc=[[TestViewController alloc]initWithNibName:@"TestViewController" bundle:nil];

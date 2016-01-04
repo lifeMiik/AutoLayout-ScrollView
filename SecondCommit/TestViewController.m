@@ -11,6 +11,7 @@
 @interface TestViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIView *BGView;
+@property (weak, nonatomic) IBOutlet UIView *photoView;
 
 
 @end
@@ -19,7 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.scrollView setContentSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, self.BGView.frame.size.height)];
+   // [self.scrollView setContentSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, self.BGView.frame.size.height)];
+    UILabel *label=[[UILabel alloc]init];
+    label.frame=CGRectMake(0, 81, 320, 120);
+    label.backgroundColor=[UIColor greenColor];
+    [self.photoView addSubview:label];
     
 }
 
